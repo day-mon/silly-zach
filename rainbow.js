@@ -29,6 +29,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 25)
 })
 
+document.addEventListener("touchstart", function(e){
+    e.preventDefault();
+},{passive: false});
+
+
 document.addEventListener('DOMContentLoaded', function() {
     let pic = document.getElementById('zzz');
     let x = 0;
