@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 100)
 })
 
-// make text bounce around the screen
-// Path: bounce.js
+
+
 document.addEventListener('DOMContentLoaded', function() {
     let text = document.getElementById('ddd');
     let x = 0;
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (y > window.innerHeight - 100 || y < 0) {
             dy = -dy;
         }
-    }, 25)
+    }, 15)
 })
 
 document.addEventListener("touchstart", function(e){
