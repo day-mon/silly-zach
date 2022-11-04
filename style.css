@@ -1,0 +1,53 @@
+body{
+    background-image: url('https://media.tenor.com/2roX3uxz_68AAAAC/cat-space.gif');
+    background-size: cover;
+
+
+
+    height: 100vh;
+    padding:0;
+    margin:0;
+
+    /** ensure body is always in front of everything else */
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; }
+
+#zzz {
+    opacity: 100%;
+    /** center the text **/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /** center the text **/
+
+
+    height: 1800px;
+
+    border: 20px solid white;
+    /** put image behind body **/
+}
+
+#ddd {
+    /** center the text **/
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /** center the text **/
+    font-size: 250px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 600px) {
+    #ddd {
+        font-size: 150px;
+    }
+}
+
+
+
