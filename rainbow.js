@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (y > window.innerHeight - 100 || y < 0) {
             dy = -dy;
         }
-    }, 1)
+    }, 25)
 })
 
 document.addEventListener('DOMContentLoaded', function() {
