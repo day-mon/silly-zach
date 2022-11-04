@@ -4,5 +4,10 @@
 
 # Path: Dockerfile
 FROM nginx:alpine
+
+EXPOSE 4001
+
 COPY . /usr/share/nginx/html
-EXPOSE 80
+COPY ./nginx.conf /etc/nginx/conf.d/default.conf
+
+ENTRYPOINT ["nginx", "-g", "daemon off;"]

@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+    app:
+        image: nginx:latest
+        labels:
+          traefik.enable: "true"
+          traefik.http.routers.zach.rule: "Host(`howtowhipandnaenae.ninja`)"
+          traefik.http.routers.zach.entrypoints: "https"
+
+
