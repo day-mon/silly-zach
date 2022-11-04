@@ -43,11 +43,18 @@ body{
     font-weight: bolder;
 }
 
-@media screen and (max-width: 600px) {
+
+
+/** adjust for mobile **/
+@media screen and (max-width: 900px) {
     #ddd {
-        font-size: 150px;
+        font-size: 50px;
     }
 }
 
-
-
+/** adjust for mobile **/
+@media screen and (max-width: 900px) {
+    #zzz {
+        height: 500px;
+    }
+}
